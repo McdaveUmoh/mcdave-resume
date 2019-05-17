@@ -1,0 +1,180 @@
+
+.example { 
+    .mobile-only { 
+      @media (min-width: 768px) { 
+        display: none; 
+      } 
+      .dovi{
+        padding: 0.1px;
+        margin: 0px;
+        color: black;
+        text-align: center;
+        font-size: 10px;
+    }
+    h1{
+        font-size: 28px
+    }
+    .pico{
+        height: 50%;
+        background: url(./image/mac2.jpg);
+        background-repeat: repeat;
+        background-size:cover;
+        filter: blur(0.1px)
+      }
+      
+      .pico1{
+        height: 50%;
+        background: url(./image/mac1.jpg);
+        background-repeat: repeat;
+        background-size:cover;
+        filter: blur(0.1px)
+        
+      }
+      .pico2{
+        height: 50%;
+        background: url(./image/mac6.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        filter: blur(0.1px)
+        
+      }
+      .pico3{
+        height: 50%;
+        background: url(./image/mac5.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        filter: blur(0.1px)
+        
+      }
+    } 
+    .desktop-only { 
+      @media (max-width: 767px){ 
+        display: none; 
+      }
+      /* Normalization */
+    .divi {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .divi p {
+        font-size: 30px;
+        font-weight: 900;
+        word-spacing: 5px;
+        line-height: 40px;
+        
+    }
+
+    /* Main styles */
+    .main{
+        padding: 0;
+        margin: 0;
+        border: 0;
+        outline: 0;
+        font-size: 30px;
+        font-weight: 900;
+        font-family: "Segoe UI", sans-serif;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        flex-direction: row;
+        overflow-y: hidden; 
+        overflow-x:hidden;
+        position: fixed;
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+
+    .color-box {
+        flex-grow: 1;
+        justify-content: center;
+        min-width: 120px;
+        transition: all .15s ease-in-out;
+        width: 0;
+        height: 100%;
+    }
+
+    .color-box .content {
+        color: white;
+        opacity: 0;
+        padding-left: 64px;
+        padding-right: 64px;
+        text-align: center;
+        -webkit-transition: opacity .3s ease-out .3s;
+        transition: opacity .3s ease-out .3s;
+    }
+
+    .color-box:hover {
+        width: 50%;
+    }
+
+    .color-box:hover .content {
+        display: block;
+        opacity: 1;
+    }
+
+    .content h1 {
+        margin-bottom: 32px;
+    }
+
+    } 
+    .pico{
+        height: 100vh;
+        background: url(./image/mac2.jpg);
+        background-repeat: repeat;
+        background-size:cover;
+        filter: blur(3px)
+      }
+      .pico:hover{
+        background: url(./image/mac2.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        filter: blur(0.1px)
+      }
+      
+      .pico1{
+        height: 100vh;
+        background: url(./image/mac1.jpg);
+        background-repeat: repeat;
+        background-size:cover;
+        filter: blur(3px)
+        
+      }
+      .pico1:hover{
+        background: url(./image/mac1.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        filter: blur(0.1px)
+      }
+      .pico2{
+        height: 100vh;
+        background: url(./image/mac6.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        filter: blur(3px)
+        
+      }
+      .pico2:hover{
+        background: url(./image/mac6.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        filter: blur(0.1px)
+      }
+      .pico3{
+        height: 100vh;
+        background: url(./image/mac5.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        filter: blur(3px)
+        
+      }
+      .pico3:hover{
+        background: url(./image/mac5.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        filter: blur(0.1px)
+      }
+    
+    
+  }
