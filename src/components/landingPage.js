@@ -7,11 +7,13 @@ export default class LandingPage extends Component{
             <div style={{width: '100%', margin: 'auto'}}>
                 <div class="mdl-grid landing-page">
                     <div class="mdl-cell mdl-cell--12-col space rain">
-                        <img
-                            src={Mcdave}
-                            alt="avatar"
-                            className="avatar-img"
-                        />
+                        <div>
+                            <img
+                                src={Mcdave}
+                                alt="avatar"
+                                className="avatar-img"
+                            />
+                        </div>
                         <div className="banner-text">
                             <div style={{width: '100%'}}>
                                 <h1> Front-End Web/Native Developer</h1>
