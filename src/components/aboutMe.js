@@ -9,8 +9,8 @@ class AboutMe extends Component{
       <div className="example" style={{width: '100%', height: '100%'}} >
         <div className="desktop-only">
             <div className="main">
-                <div class="color-box divi pico1">
-                    <div class="content divi" style={{color: "black"}}>
+                <div class="color-box divi article-image">
+                    <div class="content divi" style={{color: "white"}}>
                         <h1>Professional Career</h1>
                         <p>I focus Primarily on Front-End development and UI Design With a 3 years experience,
                         vast in a handful programming languages & Frame Works i.e (React & React Native).
@@ -22,7 +22,7 @@ class AboutMe extends Component{
                     </div>
                 </div>
                 
-                <div class="color-box divi pico" style={{backgroundColor: "darkgreen"}}>
+                <div class="color-box divi article-image2" style={{backgroundColor: "darkgreen"}}>
                     <div class="content divi" style={{color: "black"}}>
                         <h1>Hobbies</h1>
                         <p>I think programming is the only hobby i have :) LOL ,
@@ -31,7 +31,7 @@ class AboutMe extends Component{
                     </div>
                 </div>
                 
-                <div class="color-box divi pico2" style={{backgroundColor: "yellow"}}>
+                <div class="color-box divi article-image3" style={{backgroundColor: "yellow"}}>
                     <div class="content divi" style={{color: "#FDFEFE"}}>
                         <h1>Top Quotes</h1>
                         <p>“Without requirements or design, programming is the art of adding bugs to an empty text file.” - Louis Srygley</p>
@@ -40,7 +40,7 @@ class AboutMe extends Component{
                     </div>
                 </div>
                 
-                <div class="color-box divi pico3" style={{backgroundColor: "blue"}}>
+                <div class="color-box divi article-image4" style={{backgroundColor: "blue"}}>
                     <div class="content divi">
                         <h1>Vision</h1>
                         <p>To see my Country on top the food chain in technology, to see a great percent of youths indulged in various branches 
@@ -54,7 +54,7 @@ class AboutMe extends Component{
         </div>
         <div className="mobile-only">
             <div class="dovi">
-                <div className="dovi pico1">
+                <div className="dovi pico">
                     <div >
                         <h1>Professional Career</h1>
                         <p style={{fontWeight: 'Bold'}}>I focus Primarily on Front-End development and UI Design With a 3 years experience,
@@ -67,10 +67,10 @@ class AboutMe extends Component{
                     </div>
                 </div>
                 
-                <div className="dovi pico">
+                <div className="dovi pico1">
                     <div>
                         <h1>Hobbies</h1>
-                        <p style={{color: "skyblue", fontWeight: 'Bold'}}>I think programming is the only hobby i have :) LOL ,
+                        <p style={{fontWeight: 'Bold'}}>I think programming is the only hobby i have :) LOL ,
                             When I'm not programming i sketch, Paly Basket Ball, Sing,
                             Learn New Stuffs, But most of the time I'm developing {slogan} </p>
                     </div>

@@ -43,11 +43,13 @@ export default class Projects extends Component{
                 </div>
 
                 <div class="mdl-tabs__panel is-active" id="starks-panel">
+
+                    <h2 style={{textAlign:'center',fontFamily: 'Anton sans-serif', paddingTop: '0.1em', paddingBottom: '0em'}}>Web Apps</h2>
                 
                     {/**#1 */}
                     <div class="mdl-grid projects-form ">
-                            <div class="mdl-cell mdl-cell--4-col">
-                                <div class=" mdl-shadow--2dp">
+                            <div class="mdl-cell mdl-cell--4-col space">
+                                <div class=" shadow">
                                     <img src={Mines} alt="web img" width="100%" height="100%"/><br/>
                                         <p>The Ministry of Mines and Steel Development is an agency set up to unlock the economic potentials of the solid minerals sub-sector in Nigeria.</p>
                                         <a href="http://www.minesandsteel.gov.ng/" target="_blank" rel="noopener noreferrer" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect ">
@@ -57,8 +59,8 @@ export default class Projects extends Component{
                             </div>
 
                             {/**#2 */}
-                            <div class="mdl-cell mdl-cell--4-col">
-                                <div class=" mdl-shadow--2dp">
+                            <div class="mdl-cell mdl-cell--4-col space">
+                                <div class=" shadow">
                                     <img src={Gadgets} alt="web img" width="100%" height="100%"/><br/>
                                         <p>GadgetsNest Your one stop Gadgets Haven. Quality Guarantee of products. Fast returnings program. No additional fees</p>
                                         <a href="https://gadgetsnest.org/" target="_blank" rel="noopener noreferrer" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect ">
@@ -68,8 +70,8 @@ export default class Projects extends Component{
                             </div>
 
                             {/**#3 */}
-                            <div class="mdl-cell mdl-cell--4-col">
-                                <div class=" mdl-shadow--2dp">
+                            <div class="mdl-cell mdl-cell--4-col space">
+                                <div class=" shadow">
                                     <img src={WordaAlive} alt="web img" width="100%" height="100%"/><br/>
                                         <p>With a passion and zeal for the lost and hurting world, our church is looking for ways to build bridges to a cynical and jaded society.</p>
                                         <a href="https://wordalivecenter.org/" target="_blank" rel="noopener noreferrer" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect ">
@@ -81,8 +83,8 @@ export default class Projects extends Component{
 
                     {/**#4 */}
                     <div class="mdl-grid projects-form ">
-                            <div class="mdl-cell mdl-cell--4-col">
-                                <div class=" mdl-shadow--2dp">
+                            <div class="mdl-cell mdl-cell--4-col space">
+                                <div class=" shadow">
                                     <img src={Jobtaska} alt="web img" width="100%" height="100%"/><br/>
                                         <p>We don't just provide you with taskas for your jobs, we provide you with the Best professionals! in your area.</p>
                                         <a href="http://jobtaska.com/" target="_blank" rel="noopener noreferrer" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect ">
@@ -92,8 +94,8 @@ export default class Projects extends Component{
                             </div>
 
                             {/**#5*/}
-                            <div class="mdl-cell mdl-cell--4-col">
-                                <div class=" mdl-shadow--2dp">
+                            <div class="mdl-cell mdl-cell--4-col space">
+                                <div class=" shadow">
                                     <img src={Urban} alt="web img" width="100%" height="100%"/><br/>
                                         <p>Buy foodstuffs in Bulk for Cheaper Rates, <br/> With a Token for delivery fee..</p>
                                         <a href="https://urbanmarketstore.com/" target="_blank" rel="noopener noreferrer" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect ">
@@ -103,8 +105,8 @@ export default class Projects extends Component{
                             </div>
 
                             {/**#6 */}
-                            <div class="mdl-cell mdl-cell--4-col">
-                                <div class=" mdl-shadow--2dp">
+                            <div class="mdl-cell mdl-cell--4-col space">
+                                <div class=" shadow">
                                     <img src={Cstemp} alt="web img" width="100%" height="100%"/><br/>
                                         <p>Learn the skills. Practice the construction trade. Take steps to build your future and fortune, Entrepreneurs and contractors..</p>
                                         <a href="http://cstemp.org/" target="_blank" rel="noopener noreferrer" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect ">
@@ -116,8 +118,8 @@ export default class Projects extends Component{
 
                     {/**#7 */}
                     <div class="mdl-grid projects-form ">
-                            <div class="mdl-cell mdl-cell--4-col">
-                                <div class=" mdl-shadow--2dp">
+                            <div class="mdl-cell mdl-cell--4-col space">
+                                <div class=" shadow">
                                     <img src={Dozie} alt="web img" width="100%" height="100%"/><br/>
                                         <p>Your One Stop For Approved NAFDAC Drugs, at affordable Prices, What are you waiting For Visit Us Now!!! </p>
                                         <a href="http://dozieanddoziespharm.com.ng/" target="_blank" rel="noopener noreferrer" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect ">
@@ -127,8 +129,8 @@ export default class Projects extends Component{
                             </div>
 
                             {/**#8*/}
-                            <div class="mdl-cell mdl-cell--4-col">
-                                <div class=" mdl-shadow--2dp">
+                            <div class="mdl-cell mdl-cell--4-col space">
+                                <div class="shadow">
                                     <img src={KitchenStuff} alt="web img" width="100%" height="100%"/><br/>
                                         <p>KitchenStuffs is an online retail platform of FRONTCAS NIGERIA LIMITED (FNL) that specializes in sales of foodstuffs. </p>
                                         <a href="https://kitchenstuffs.org/" target="_blank" rel="noopener noreferrer"  class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect ">
@@ -138,8 +140,8 @@ export default class Projects extends Component{
                             </div>
 
                             {/**#9 */}
-                            <div class="mdl-cell mdl-cell--4-col">
-                                <div class=" mdl-shadow--2dp">
+                            <div class="mdl-cell mdl-cell--4-col space">
+                                <div class="shadow">
                                     <img src={Study} alt="web img" width="100%" height="100%"/><br/>
                                         <p>StudyLab helps schools improve students' performance in Maths and Science subjects to world class standards.</p>
                                         <a href="http://www.studylab360.com/#/" target="_blank" rel="noopener noreferrer"  class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect ">
@@ -151,9 +153,9 @@ export default class Projects extends Component{
 
                     {/**#7 */}
                     <div class="mdl-grid projects-form ">
-                        <div class="mdl-cell mdl-cell--4-col"/>
-                        <div class="mdl-cell mdl-cell--4-col">
-                                <div class=" mdl-shadow--2dp">
+                        <div class="mdl-cell mdl-cell--4-col space"/>
+                        <div class="mdl-cell mdl-cell--4-col space">
+                                <div class="shadow">
                                     <img src={DaveTechk} alt="web img" width="100%" height="100%"/><br/>
                                         <p>Skilled in web applications, graphics design, animation advertisement, mobile development and a whole lot more.</p>
                                         <a href="http://davetechk.com.ng/" target="_blank" rel="noopener noreferrer"  class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect ">
@@ -161,7 +163,7 @@ export default class Projects extends Component{
                                         </a>
                                 </div>  
                         </div>
-                        <div class="mdl-cell mdl-cell--4-col"/>
+                        <div class="mdl-cell mdl-cell--4-col space"/>
                     </div>
 
 
@@ -169,28 +171,29 @@ export default class Projects extends Component{
 
 
                 <div class="mdl-tabs__panel" id="lannisters-panel">
+                    <h2 style={{textAlign:'center',fontFamily: 'Anton sans-serif', paddingTop: '0.1em', paddingBottom: '0em'}}>Applications</h2>
                     <div class="mdl-grid">
-                        <div class="mdl-cell mdl-cell--12-col">
+                        <div class="mdl-cell mdl-cell--12-col ">
                             {/**#7 */}
                             <div class="mdl-grid projects-form ">
-                                    <div class="mdl-cell mdl-cell--4-col">
-                                        <div class=" mdl-shadow--2dp">
+                                    <div class="mdl-cell mdl-cell--4-col space">
+                                        <div class="shadow">
                                             <img src={KitchenApp} alt="web img" width="100%" height="100%"/><br/>
                                                 <p>An E-commerce App To help users purchase kitchen Equipments on android devices.</p>
                                         </div>
                                     </div>
 
                                     {/**#8*/}
-                                    <div class="mdl-cell mdl-cell--4-col">
-                                        <div class=" mdl-shadow--2dp">
+                                    <div class="mdl-cell mdl-cell--4-col space">
+                                        <div class="shadow">
                                             <img src={Gadget} alt="web img" width="100%" height="100%"/><br/>
                                                 <p>Coming Soon.</p>
                                         </div>
                                     </div>
 
                                     {/**#9 */}
-                                    <div class="mdl-cell mdl-cell--4-col">
-                                        <div class=" mdl-shadow--2dp">
+                                    <div class="mdl-cell mdl-cell--4-col space">
+                                        <div class="shadow">
                                             <img src={Mine} alt="web img" width="100%" height="100%"/><br/>
                                                 <p>Desktop App in-House For ministry to aid issuing certifiacte.</p>
                                         </div>
@@ -200,7 +203,9 @@ export default class Projects extends Component{
                     </div>
                 </div>
                 <div class="mdl-tabs__panel" id="targaryens-panel">
+                    <h2 style={{textAlign:'center',fontFamily: 'Anton sans-serif', paddingTop: '0.1em', paddingBottom: '0em'}}>Designs</h2>
                     <div class="mdl-grid">
+                        
                         <div class="mdl-cell mdl-cell--12-col" style={{textAlign:'center'}}>
                             <img src={allocentricravels} style={{padding: '15px'}} alt="web img" width="300px" height="300px"/>
                             <img src={hama1} style={{padding: '15px'}} alt="web img" width="300px" height="300px"/>
